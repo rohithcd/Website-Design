@@ -1,0 +1,247 @@
+
+/* Contaner */
+
+.container
+{
+	width: 100vw;
+	height: 510px;
+	display: flex;
+	margin-top: 2rem;
+	
+}
+
+/*Box 1*/
+.box-1
+{
+	width: 33.33%;
+	height: 100%;
+	padding: 1rem;
+	margin-left: 1rem;
+	
+}
+
+.contact
+{
+	padding: 2rem;
+	background-color: #f1f6f9;
+	font-size: 0.85rem;
+	line-height: 1.5;
+	box-shadow:0 0.8rem 1rem rgba(0, 0, 0, .3);
+	border-radius: 8px;
+}
+
+.contact div:not(:first-child)
+{
+	margin-bottom: 2rem;
+}
+
+.head
+{
+	text-align: center;
+}
+
+
+/* Box */
+.box-2
+{
+	width: 66.66%;
+	height: 100%;
+	font-family: verdana;
+
+}
+
+.box-2 h1
+{
+	text-align: center;
+}
+
+form
+{
+	padding: 2rem 13rem;
+}
+
+.pro
+{
+	margin-top: 0.5rem;
+	margin-bottom:1.2rem; 
+	display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+
+.pro:focus
+{
+	color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.submit
+{
+	color: green;
+	background-color: white;
+	border: 2px solid green;
+	padding: 0.8rem 1.6rem;
+	border-radius: 60px;
+}
+
+.submit:focus
+{
+	background-color: green;
+	color: white;
+	outline: none;
+}
+
+@media screen and (max-width: 1220px)
+{
+	.container
+	{
+		position: relative;
+		height: 920px;
+	}
+
+	.box-1
+	{
+		width: 100vw;
+		height: 50%;
+		position: absolute;
+		bottom: 0%;
+		left: 0%;
+		margin: 0 auto;
+		padding: 0 1.6rem;
+	}
+
+
+
+	.contact-1
+	{
+		display: inline-block;
+		transform: translateY(-40px);
+		
+	}
+
+	.contact-2
+	{
+		display: inline-block;
+		margin-left: 4.6rem;
+
+	}
+
+	hr
+	{
+		margin-bottom: 2rem;
+	}
+
+	.pro
+	{
+		width: 100%;
+		margin-top: 0.5rem;
+		margin-bottom:1.2rem;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+	form
+	{
+		padding: 32px 6rem;
+	}
+
+	.box-2
+	{
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		font-size: 0.9rem;
+		align-items: center;
+		
+	}
+
+	.forms
+	{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 836px)
+{
+	.contact-1
+	{
+		display: block;
+		transform: translateY(0px);
+	}
+
+	.contact-2
+	{
+		display: block;
+		margin-left: 0;
+
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	
+	.box-1
+	{
+		width: 100vw;
+		height: 50%;
+		position: absolute;
+		bottom: 0%;
+		left: 0%;
+		margin: 0 auto;
+		padding: 0 1.6rem;
+	}
+
+	.pro
+	{
+		display: block;
+
+	}
+
+	form
+	{
+		padding: 32px 3rem;
+	}
+
+	.box-2
+	{
+		font-size: 0.7rem;
+	
+	}
+
+	.forms
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.box-2
+	{
+		width: 100%;
+		height: 50%;
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		font-size: 0.9rem;
+		
+	}
+
+}
